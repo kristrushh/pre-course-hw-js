@@ -1,4 +1,5 @@
-let str = "zzzzyzz"
-str.includes("y") ? console.log("нашел") : console.log("заблудился")
+let iAm = 'я'
+let krasavchik = "красавчик!";
 
+console.log(iAm.toUpperCase(iAm) + " " + krasavchik)
 
