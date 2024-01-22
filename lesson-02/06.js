@@ -6,8 +6,8 @@ let passportWithAddress = {
         city: "LA"
     }
 };
-let clone = Object.assign({}, passportWithAddress);
-clone.address.city = "Bobryisk";
+let deep = structuredClone(passportWithAddress);
+deep.address.city = "Bobryisk";
 
 console.log(passportWithAddress.address.city);
-console.log(clone.address.city);
+console.log(deep.address.city);
