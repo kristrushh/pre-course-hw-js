@@ -8,4 +8,5 @@ const numbers = [
 for (let i = 0; i < numbers.length; i++) {
     numbers[i] = numbers[i].filter((n) => n % 2 === 0)
 }
+
 console.log(numbers)
