@@ -3,7 +3,6 @@ const numbers = [
     [11, 20, 33, 40, 55],
     [111, 200, 333, 400, 555],
 ];
-
 for (let i = 0; i < numbers.length; i++) {
     numbers[i] = numbers[i].filter((n) => n % 2 === 0)
 }
