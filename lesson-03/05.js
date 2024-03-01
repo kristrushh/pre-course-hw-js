@@ -30,8 +30,7 @@ const users3 = [
         address: '321 Hickory St'
     },
 ];
-
 for (let i = 0; i < users3.length; i++) {
-    let element = users3[i].isMarried = true;
+    users3[i].isMarried = true;
 }
 console.log(users3)
