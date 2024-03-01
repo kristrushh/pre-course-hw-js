@@ -5,6 +5,6 @@ let numbers = [
 ];
 
 for (let i = 0; i < numbers.length; i++) {
-    numbers[i] = numbers[i].filter(function (n) { return n % 2 === 0 })
+    numbers[i] = numbers[i].filter(n => n % 2 === 0)
 }
-console.log(numbers);
+console.log(numbers)
