@@ -1,4 +1,4 @@
-const users3 = [
+const users2 = [
     {
         id: 1,
         user: 'John',
@@ -7,28 +7,23 @@ const users3 = [
     },
     {
         id: 2,
+        user: 'Jane',
+        surName: 'Smith',
+        address: '456 Elm St'
+    },
+    {
+        id: 3,
         user: 'Tom',
         surName: 'Johnson',
         address: '789 Oak St'
     },
-    {
-        id: 3,
-        user: 'Bob',
-        surName: 'Jones',
-        address: '135 Pine St'
-    },
-    {
-        id: 4,
-        user: 'David',
-        surName: 'Davis',
-        address: '864 Walnut St'
-    },
-    {
-        id: 5,
-        user: 'Mark',
-        surName: 'Taylor',
-        address: '321 Hickory St'
-    },
 ];
-users3.forEach(person => person.isMarried = true);
-console.log(users3)
+
+const newObj = {
+    id: 4,
+    user: 'Ivan',
+    surName: 'Susanin',
+    address: 'Unknown'
+}
+users2.push(newObj)
+console.log(users2)
